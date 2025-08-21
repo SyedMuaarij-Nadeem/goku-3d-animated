@@ -48,8 +48,8 @@ const App = () => {
         <EffectComposer multisampling={2}>
           <Bloom
             mipmapBlur
-            intensity={4}
-            luminanceThreshold={0.2}
+            intensity={1}
+            luminanceThreshold={0.01}
             luminanceSmoothing={0.2}
           />
           <ToneMapping adaptive />
